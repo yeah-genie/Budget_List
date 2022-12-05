@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'GmarketSansMedium';
+}
+
+header{
+    background-color: #B1B2FF;
+    color:white;
+}
+
+body {
+    background-color: #eee
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #EEF1FF;
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #D2DAFF;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    color: #2B3A55;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: #B1B2FF;
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
+
+footer{
+    background-color: #B1B2FF;
+}
